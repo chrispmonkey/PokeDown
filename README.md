@@ -1,4 +1,4 @@
-#**PokeDown**
+## **PokeDown**
 
 ** PokeDown** is a Pokemon Go spoofing time calculator for iOS. It suggests the amount of time a user should wait after spoofing their location from one location to another. 
 
