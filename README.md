@@ -15,9 +15,9 @@ The following **required** functionality is complete:
 * [x] Created and added an App Icon
 
 The following **additional** features are scheduled to be implemented:
-* [] UI animations
-* [] Remembering the location across app restarts (if <10mins)
-* [] Settings page to change various settings.
+* [ ] UI animations
+* [ ] Remembering the location across app restarts (if <10mins)
+* [ ] Settings page to change various settings.
 
 ## Video Walkthrough 
 
