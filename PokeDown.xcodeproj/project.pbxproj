@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A7899AD11F4D8788005C45DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7899AD01F4D8788005C45DD /* AppDelegate.swift */; };
-		A7899AD31F4D8788005C45DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7899AD21F4D8788005C45DD /* ViewController.swift */; };
 		A7899AD61F4D8788005C45DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7899AD41F4D8788005C45DD /* Main.storyboard */; };
 		A7899AD81F4D8788005C45DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7899AD71F4D8788005C45DD /* Assets.xcassets */; };
 		A7899ADB1F4D8788005C45DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7899AD91F4D8788005C45DD /* LaunchScreen.storyboard */; };
 		A7899AE61F4D8788005C45DD /* PokeDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7899AE51F4D8788005C45DD /* PokeDownTests.swift */; };
 		A7899AF11F4D8788005C45DD /* PokeDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7899AF01F4D8788005C45DD /* PokeDownUITests.swift */; };
+		A7899AFF1F4D8CCD005C45DD /* CooldownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7899AFE1F4D8CCD005C45DD /* CooldownViewController.swift */; };
+		A7A4EB661F550D13005738F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A4EB651F550CFD005738F9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		A7899ACD1F4D8788005C45DD /* PokeDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7899AD01F4D8788005C45DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7899AD21F4D8788005C45DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7899AD51F4D8788005C45DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7899AD71F4D8788005C45DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7899ADA1F4D8788005C45DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		A7899AEC1F4D8788005C45DD /* PokeDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7899AF01F4D8788005C45DD /* PokeDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDownUITests.swift; sourceTree = "<group>"; };
 		A7899AF21F4D8788005C45DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7899AFE1F4D8CCD005C45DD /* CooldownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownViewController.swift; sourceTree = "<group>"; };
+		A7A4EB651F550CFD005738F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A4EB661F550D13005738F9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				A7899AE41F4D8788005C45DD /* PokeDownTests */,
 				A7899AEF1F4D8788005C45DD /* PokeDownUITests */,
 				A7899ACE1F4D8788005C45DD /* Products */,
+				A7A4EB641F550CFD005738F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				A7899AD01F4D8788005C45DD /* AppDelegate.swift */,
-				A7899AD21F4D8788005C45DD /* ViewController.swift */,
 				A7899AD41F4D8788005C45DD /* Main.storyboard */,
 				A7899AD71F4D8788005C45DD /* Assets.xcassets */,
 				A7899AD91F4D8788005C45DD /* LaunchScreen.storyboard */,
 				A7899ADC1F4D8788005C45DD /* Info.plist */,
+				A7899AFE1F4D8CCD005C45DD /* CooldownViewController.swift */,
 			);
 			path = PokeDown;
 			sourceTree = "<group>";
@@ -123,6 +127,14 @@
 				A7899AF21F4D8788005C45DD /* Info.plist */,
 			);
 			path = PokeDownUITests;
+			sourceTree = "<group>";
+		};
+		A7A4EB641F550CFD005738F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4EB651F550CFD005738F9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,11 @@
 				TargetAttributes = {
 					A7899ACC1F4D8788005C45DD = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					A7899AE01F4D8788005C45DD = {
 						CreatedOnToolsVersion = 9.0;
@@ -256,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7899AD31F4D8788005C45DD /* ViewController.swift in Sources */,
 				A7899AD11F4D8788005C45DD /* AppDelegate.swift in Sources */,
+				A7899AFF1F4D8CCD005C45DD /* CooldownViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QCHSMSH3C7;
 				INFOPLIST_FILE = PokeDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.PokeDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QCHSMSH3C7;
 				INFOPLIST_FILE = PokeDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherprice.PokeDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +547,7 @@
 				A7899AF71F4D8788005C45DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7899AF81F4D8788005C45DD /* Build configuration list for PBXNativeTarget "PokeDownTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +556,7 @@
 				A7899AFA1F4D8788005C45DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7899AFB1F4D8788005C45DD /* Build configuration list for PBXNativeTarget "PokeDownUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +565,7 @@
 				A7899AFD1F4D8788005C45DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
