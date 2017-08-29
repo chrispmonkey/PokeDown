@@ -29,7 +29,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-
 ## License
 
     Copyright 2017 Christopher L. Price
