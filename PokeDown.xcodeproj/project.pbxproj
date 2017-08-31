@@ -49,7 +49,7 @@
 		A7899AF21F4D8788005C45DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7899AFE1F4D8CCD005C45DD /* CooldownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownViewController.swift; sourceTree = "<group>"; };
 		A7A4EB651F550CFD005738F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A7A4EB681F552532005738F9 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		A7CAD9961F58034A006C0536 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 		A7899AC41F4D8788005C45DD = {
 			isa = PBXGroup;
 			children = (
+				A7CAD9961F58034A006C0536 /* README.md */,
 				A7899ACF1F4D8788005C45DD /* PokeDown */,
 				A7899AE41F4D8788005C45DD /* PokeDownTests */,
 				A7899AEF1F4D8788005C45DD /* PokeDownUITests */,
@@ -102,7 +103,6 @@
 		A7899ACF1F4D8788005C45DD /* PokeDown */ = {
 			isa = PBXGroup;
 			children = (
-				A7A4EB681F552532005738F9 /* README.rtf */,
 				A7899AD01F4D8788005C45DD /* AppDelegate.swift */,
 				A7899AD41F4D8788005C45DD /* Main.storyboard */,
 				A7899AD71F4D8788005C45DD /* Assets.xcassets */,
