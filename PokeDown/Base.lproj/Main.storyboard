@@ -104,7 +104,7 @@
                                     <action selector="calculateTimeToWaitButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ww3-y3-RM0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8a-BJ-Eyp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~100 Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8a-BJ-Eyp">
                                 <rect key="frame" x="8" y="308.5" width="359" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="bzW-WF-Vim"/>
